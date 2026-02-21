@@ -1,0 +1,180 @@
+:root {
+  /* pallet colours */
+  --bg-colour: #f7f7f7ff;
+  --secondary-text: #636363;
+  --primary-text: #121212;
+  --primary-colour: #42a7c3;
+  --prim-dark-colour: #347f90;
+  --card-colour: #d0d0d0;
+  --secondary-colour: #fa8443;
+  --secondary-dark-colour: #ed712f;
+
+  /* typhography */
+  --hero-title: 56px;
+  --logo: 36px;
+  --header: 24px;
+  --sub-header: 20px;
+  --text: 16px;
+  --sm-text: 14px;
+  --xs-text: 10px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+/* navbar */
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: transparent;
+  z-index: 99;
+  padding: 24px 0;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.navbar-container .logo h1 {
+  font-size: var(--logo);
+  color: var(--primary-colour);
+}
+
+.navbar-container .nav-list ul {
+  display: inline;
+  list-style: none;
+}
+
+.nav-list ul li {
+  display: inline;
+  margin-right: 80px;
+}
+
+.nav-list ul li a {
+  text-decoration: none;
+  color: var(--primary-text);
+  font-size: var(--text);
+}
+
+.nav-list ul li a:hover {
+  color: var(--secondary-colour);
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.btn-signup {
+  padding: 12px 32px;
+  background-color: var(--secondary-colour);
+  color: var(--bg-colour);
+  border: none;
+  cursor: pointer;
+  border-radius: 32px;
+  font-weight: 600;
+  font-size: var(--text);
+}
+
+.btn-signup:hover {
+  background-color: var(--secondary-dark-colour);
+}
+
+.btn-signup a {
+  color: var(--bg-colour);
+  text-decoration: none;
+}
+
+/* hero section */
+.hero {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  padding-top: 50px;
+  height: auto;
+  background: linear-gradient(180deg, #e3f2fd 0%, #ffffff 80%);
+}
+
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1280px;
+  margin: 80px auto;
+  padding: 40px 20px;
+  width: 100%;
+  gap: 80px;
+}
+
+.hero-text {
+  flex: 1;
+
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.hero-text h1 {
+  font-size: var(--hero-title);
+  width: 100%;
+  margin: 0 auto;
+}
+.hero-text p {
+  font-size: var(--text);
+  color: var(--secondary-text);
+  margin-bottom: 40px;
+}
+
+.hero-image {
+  flex: 1;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 20%;
+}
+
+.hero-image img {
+  width: 648px;
+  height: 594px;
+  transition: transform 0.3s ease;
+}
+
+.hero-image img:hover {
+  transform: translateY(-5px);
+  cursor: pointer;
+}
+
+.cta-btn {
+  display: flex;
+}
+
+.btn-booking {
+  padding: 16px 32px;
+  background-color: var(--secondary-colour);
+  color: var(--bg-colour);
+  border: none;
+  cursor: pointer;
+  border-radius: 32px;
+  font-weight: 600;
+  font-size: var(--text);
+  text-decoration: none;
+}
+
+.btn-booking:hover {
+  background-color: var(--secondary-dark-colour);
+}
+
+.btn-booking a {
+  color: var(--bg-colour);
+}
+
+.btn-booking i {
+  margin-right: 8px;
+}

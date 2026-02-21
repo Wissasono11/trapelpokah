@@ -1,0 +1,258 @@
+:root {
+  /* pallet colours */
+  --bg-colour: #f7f7f7ff;
+  --secondary-text: #636363;
+  --primary-text: #121212;
+  --primary-colour: #42a7c3;
+  --prim-dark-colour: #347f90;
+  --card-colour: #f0f0f0;
+  --secondary-colour: #fa8443;
+  --secondary-dark-colour: #ed712f;
+
+  /* typhography */
+  --hero-title: 56px;
+  --logo: 36px;
+  --header: 24px;
+  --sub-header: 20px;
+  --text: 16px;
+  --sm-text: 14px;
+  --xs-text: 12px;
+}
+
+/* popular destinations */
+.popular-destinations {
+  margin: 80px auto;
+  padding: 40px 20px;
+}
+
+.popular-destinations-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.popular-destinations-text {
+  margin-bottom: 40px;
+}
+
+.popular-destinations-text h2 {
+  font-size: var(--logo);
+  margin-bottom: 10px;
+}
+
+.popular-destinations-text p {
+  font-size: var(--text);
+  color: var(--secondary-text);
+}
+
+/* card destination */
+.popular-destionations-card {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+}
+
+.desti-card {
+  background-color: var(--bg-colour);
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+
+  padding: 12px;
+}
+
+.desti-card:hover {
+  transform: translateY(-5px);
+  background-color: var(--card-colour);
+  cursor: pointer;
+}
+
+.card-image {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  overflow: hidden;
+}
+
+.card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+  border-radius: 16px;
+}
+
+.location-tag {
+  display: flex;
+  align-items: center;
+  margin-top: 12px;
+  padding: auto 0;
+  border-radius: 5px;
+
+  background-color: transparent;
+  color: var(--secondary-text);
+  font-size: var(--xs-text);
+}
+
+.location-tag i {
+  margin-right: 4px;
+  color: var(--primary-colour);
+}
+
+.card-info {
+  padding: 8px;
+}
+
+.card-info h3 {
+  font-size: var(--sub-header);
+  margin-bottom: 5px;
+}
+
+.card-info p {
+  font-size: var(--sm-text);
+  color: var(--secondary-text);
+  margin-bottom: 10px;
+}
+
+.price-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price {
+  font-size: var(--text);
+  font-weight: 600;
+  color: var(--primary-colour);
+}
+
+/* about section */
+.about-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+
+  gap: 40px;
+  max-width: 1280px;
+  margin: 80px auto;
+  padding: 40px 20px;
+}
+
+.image-side img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+
+  margin: 0 auto;
+}
+
+.text-side {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-text {
+  margin-bottom: 24px;
+}
+
+.about-text h2 {
+  font-size: var(--logo);
+  font-weight: 700;
+  color: var(--primary-text);
+}
+
+.about-text p {
+  font-size: var(--text);
+  color: var(--secondary-text);
+}
+
+/* features list */
+.features-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  margin-bottom: 12px;
+}
+
+.feature-item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+
+  cursor: pointer;
+}
+
+.feature-item:hover,
+.feature-item:first-child {
+  background-color: white;
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.05);
+}
+
+.icon-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 14px;
+  flex-shrink: 0;
+
+  padding: 16px 24px;
+}
+
+.icon-box img {
+  width: 64px;
+  height: 64px;
+  object-fit: cover;
+}
+
+.feature-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.feature-text h3 {
+  font-size: var(--sub-header);
+  font-weight: 600;
+  color: var(--primary-text);
+
+  margin: 0;
+}
+
+.feature-text p {
+  font-size: var(--text);
+  color: var(--secondary-text);
+
+  margin: 8px 0;
+}
+
+.another-text {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.another-text h2 {
+  font-size: var(--sub-header);
+  color: var(--primary-text);
+}
+/* vacation map */
+.plan-your-vacation {
+  margin: 80px auto;
+  padding: 40px 20px;
+}
+
+.vacation-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1280px;
+
+  margin: 0 auto;
+}
+
+.vacation-container img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}

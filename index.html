@@ -1,0 +1,365 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trapelpokah. - Landing Page</title>
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"
+      rel="stylesheet"
+    />
+
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <!-- css -->
+    <link rel="stylesheet" href="assets/css/header.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/footer.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+  </head>
+  <body>
+    <!-- navbar section -->
+    <header class="navbar">
+      <div class="navbar-container">
+        <div class="logo">
+          <h1>Trapelpokah.</h1>
+        </div>
+
+        <!-- hamburger menu toggle (mobile) -->
+        <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+        <label for="nav-toggle" class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+
+        <nav class="nav-list">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#product">Product</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li>
+              <a href="https://www.dicoding.com/users/ssasono/academies"
+                >Dicoding Profile</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <button class="btn-signup"><a href="#">Sign Up</a></button>
+      </div>
+    </header>
+
+    <main>
+      <!-- hero section -->
+      <article class="hero" id="home">
+        <div class="hero-container">
+          <div class="hero-text">
+            <h1>Start your journey by one click, explore beautiful world!</h1>
+            <p>
+              Plan and book your perfect trip with expert advice, travel tips,
+              destination information and inspiration from us!
+            </p>
+            <div class="cta-btn">
+              <a
+                href="https://www.dicoding.com/users/ssasono/academies"
+                class="btn-booking"
+                ><i class="fa-solid fa-magnifying-glass"></i>Booking Now!</a
+              >
+            </div>
+          </div>
+
+          <aside class="hero-image">
+            <img
+              src="assets/img/hero-illustrasion.jpg"
+              alt="Hero Image"
+              class="main-img"
+              loading="lazy"
+            />
+          </aside>
+        </div>
+      </article>
+
+      <!-- popular destinations -->
+      <article class="popular-destinations" id="product">
+        <div class="popular-destinations-container">
+          <div class="popular-destinations-text">
+            <h2>Popular Destinations</h2>
+            <p>Vacations to make your experience enjoyable in Indonesia!</p>
+          </div>
+
+          <div class="popular-destionations-card">
+            <!-- card 1 -->
+            <section class="desti-card">
+              <div class="card-image">
+                <img
+                  src="assets/img/destination1.jpg"
+                  alt="Flores"
+                  loading="lazy"
+                />
+              </div>
+
+              <div class="card-info">
+                <span class="location-tag">
+                  <i class="fa-solid fa-location-dot"></i>Manggarai Barat
+                </span>
+                <h3>Flores Road Trip 3D2N</h3>
+                <p>3 Days</p>
+                <div class="price-row">
+                  <span class="price">Rp 1.605.000 /person</span>
+                </div>
+              </div>
+            </section>
+
+            <!-- card 2 -->
+            <section class="desti-card">
+              <div class="card-image">
+                <img
+                  src="assets/img/destination2.jpg"
+                  alt="Bogor"
+                  loading="lazy"
+                />
+              </div>
+
+              <div class="card-info">
+                <span class="location-tag">
+                  <i class="fa-solid fa-location-dot"></i>Bogor
+                </span>
+                <h3>Forrester Glamping Co Bogor</h3>
+                <p>1 Days</p>
+                <div class="price-row">
+                  <span class="price">Rp 1.205.000 /night</span>
+                </div>
+              </div>
+            </section>
+
+            <!-- card 3 -->
+            <section class="desti-card">
+              <div class="card-image">
+                <img
+                  src="assets/img/destination3.jpg"
+                  alt="Bali"
+                  loading="lazy"
+                />
+              </div>
+
+              <div class="card-info">
+                <span class="location-tag">
+                  <i class="fa-solid fa-location-dot"></i>Jakarta
+                </span>
+                <h3>Paket Tiket Pesawat Jakarta Bali</h3>
+                <p>5 Days</p>
+                <div class="price-row">
+                  <span class="price">Rp 1.705.000 /person</span>
+                </div>
+              </div>
+            </section>
+
+            <!-- card 4 -->
+            <section class="desti-card">
+              <div class="card-image">
+                <img
+                  src="assets/img/destination4.jpg"
+                  alt="Semarang"
+                  loading="lazy"
+                />
+              </div>
+
+              <div class="card-info">
+                <span class="location-tag">
+                  <i class="fa-solid fa-location-dot"></i>Kota Semarang
+                </span>
+                <h3>Desa Wisata Kandri</h3>
+                <p>7 Days</p>
+                <div class="price-row">
+                  <span class="price">Rp 1.905.000 /person</span>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </article>
+
+      <!-- about us -->
+      <article class="about-us" id="about">
+        <div class="about-container">
+          <aside class="image-side">
+            <img
+              src="assets/img/aboutus-illustrasion.jpg"
+              alt="About Us"
+              loading="lazy"
+            />
+          </aside>
+
+          <div class="text-side">
+            <div class="about-text">
+              <h2>Why Choose Us</h2>
+              <p>
+                Enjoy different experiences in every place you visit and
+                discover new and affordable adventures of course.
+              </p>
+            </div>
+
+            <div class="features-list">
+              <!-- feature 1 -->
+              <div class="feature-item">
+                <div class="icon-box icon-flight">
+                  <img
+                    src="assets/img/flight.png"
+                    alt="flight"
+                    loading="lazy"
+                  />
+                </div>
+                <div class="feature-text">
+                  <h3>Flight Ticket</h3>
+                  <p>Get the best deals on flight tickets</p>
+                </div>
+              </div>
+
+              <!-- feature 2 -->
+              <div class="feature-item">
+                <div class="icon-box icon-hotel">
+                  <img
+                    src="assets/img/accomodation.png"
+                    alt="hotel"
+                    loading="lazy"
+                  />
+                </div>
+                <div class="feature-text">
+                  <h3>Accommodation</h3>
+                  <p>Find the best place to stay</p>
+                </div>
+              </div>
+
+              <!-- feature 3 -->
+              <div class="feature-item">
+                <div class="icon-box icon-tour">
+                  <img src="assets/img/package.png" alt="tour" loading="lazy" />
+                </div>
+                <div class="feature-text">
+                  <h3>Packaged Tour</h3>
+                  <p>Explore the world with our packaged tours</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="another-text">
+              <h2>Another Product</h2>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+              >
+                <path
+                  d="M9 18L15 12L9 6"
+                  stroke="black"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- plan your vacation map -->
+      <article class="plan-your-vacation">
+        <div class="vacation-container">
+          <img
+            src="assets/img/plan-illustrasion.jpg"
+            alt="plan"
+            loading="lazy"
+          />
+        </div>
+      </article>
+    </main>
+
+    <!-- footer section -->
+    <footer class="landing-footer">
+      <div class="cta-glass-container">
+        <div class="cta-content">
+          <div class="cta-text">
+            <p>Prepare yourself to be a part of exploration of</p>
+            <h2>The Beauty of Indonesia</h2>
+          </div>
+          <div class="cta-buttons">
+            <a href="#" class="btn btn-signin">Sign In</a>
+            <a href="#" class="btn btn-signup">Sign Up</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-middle">
+        <div class="footer-brand-nav">
+          <h2 class="brand-name">Trapelpokah.</h2>
+          <nav class="footer-nav">
+            <ul>
+              <li><a href="#">Product</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">About Us</a></li>
+              <li>
+                <a href="https://www.dicoding.com/users/ssasono/academies"
+                  >Dicoding Profile</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="app-download">
+          <p>Get the App</p>
+          <div class="store-buttons">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg"
+              alt="Google Play"
+            />
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg"
+              alt="App Store"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 trapelpokah.com</p>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+        </div>
+      </div>
+
+      <!-- decorative circles -->
+      <div class="footer-decorative-circles">
+        <span class="circle circle-1"></span>
+        <span class="circle circle-2"></span>
+        <span class="circle circle-3"></span>
+        <span class="circle circle-4"></span>
+      </div>
+
+      <!-- dashed diagonal lines -->
+      <div class="footer-dashed-line dashed-line-1"></div>
+      <div class="footer-dashed-line dashed-line-2"></div>
+
+      <!-- small orange dot -->
+      <div class="footer-orange-dot dot-1"></div>
+      <div class="footer-orange-dot dot-2"></div>
+      <div class="footer-orange-dot dot-3"></div>
+
+      <!-- small plane -->
+      <div class="footer-plane plane-1">✈</div>
+      <div class="footer-plane plane-2">✈</div>
+    </footer>
+  </body>
+</html>
